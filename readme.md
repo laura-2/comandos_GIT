@@ -61,3 +61,21 @@
 `git add .`
 `git commit . -m "mensagem de commit"`
 `git push origin main`
+
+<h4>criando outra branch</h4>
+
+`git checkout -b desenvolvimento`
+`git push origin desenvolvimento`
+
+<h4>voltar pra branch principal-main</h4>
+
+`git switch main`
+
+<h4>mostra quais branch tem e qual vc está atualmente</h4>
+
+`git branch`
+
+<h4>mandar tudo que está em desenvolvimento para main</h4>
+
+`git merge desenvolvimento`
+`git push origin main`
