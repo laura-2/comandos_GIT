@@ -39,3 +39,25 @@
 <h4>restaurar alterações</h4>
 
 `git restore --source 000000 (código da alteração) .`
+
+<h4>trazendo as alterações do gitHub pro seu computador</h4>
+
+`git pull https:/___projeto_do_git.git`
+
+<h4>ver status e alterações do projeto</h4>
+
+`git status`
+
+<h4>declarando alterações</h4>
+
+`git commit index.html -m "alterando o projeto"`
+ 
+<h4>empurrando para o repositorio main gitHub</h4>
+
+`git push origin main`
+
+<h4>enviar as alterações realizadas no seu repositório local para um repositório remoto</h4>
+
+`git add .`
+`git commit . -m "mensagem de commit"`
+`git push origin main`
